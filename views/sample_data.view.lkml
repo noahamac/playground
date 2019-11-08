@@ -63,56 +63,78 @@ view: sample_data {
   }
 
   measure: count {
+    label: "Count Orders"
+    description: "Simple Count"
     type: count
     drill_fields: []
   }
 
   measure: sin_wave {
+    label: "Customer Sentiment"
+    description: "Sin Wave from -1 to 1"
     type: number
     sql: ${sin} ;;
   }
 
   measure: cos_wave {
+    label: "Tweet Sentiment"
+    description: "Cos Wave from -1 to 1"
     type: number
     sql: ${cos} ;;
   }
 
   measure: expon_trend {
+    label: "Count Converted Customer"
+    description: "Exponential growth over time from .125 to 100T"
     type: number
     sql: ${exponential} ;;
   }
 
   measure: line_trend {
+    label: "New Sales"
+    description: "Linear trend over time from 1 to 800"
     type: number
     sql: ${linear} ;;
   }
 
   measure: pos_sin_wave {
+    label: "Website Traffic"
+    description: "Absolutely positive sin wave from 0 to 1"
     type: number
     sql: ${sin_pos} ;;
   }
 
   measure: sin_trending {
+    label: "Revenue"
+    description: "Trending sin wave from 0 to 100k"
     type: number
     sql: ${funky} ;;
   }
 
   measure: num_thru_10 {
+    label: "Website Visitors"
+    description: "Random number 1-10"
     type: number
     sql: ${random} ;;
   }
 
   measure: rand_true {
+    label: "Premium User"
+    description: "Random true and false"
     type: number
     sql: round(${random}/100) ;;
   }
 
   measure: sum_thru_10 {
+    label: "Expenses"
+    description: "Sum of random measure"
     type: sum
     sql: ${random} ;;
   }
 
   measure: avg_thru_10 {
+    label: "Average Premium Upgrade"
+    description: "Average of random measure"
     type: average
     sql: ${random} ;;
   }
