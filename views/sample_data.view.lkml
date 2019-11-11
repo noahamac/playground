@@ -1,5 +1,5 @@
 view: sample_data {
-  sql_table_name: tmp.sample_data ;;
+  sql_table_name: playground.playground ;;
 
   dimension: cos {
     type: number
