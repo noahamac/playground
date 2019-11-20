@@ -57,6 +57,16 @@ view: sample_data {
     sql: ${TABLE}.State ;;
   }
 
+  dimension: state_pics {
+    type: string
+    sql: CASE
+        WHEN ${state} = "KY" THEN 'https://i.ibb.co/WzXXgjH/download-1.png'
+        WHEN ${state} = "CA" THEN 'https://i.ibb.co/zb8g0LZ/download-2.png'
+        WHEN ${state} = "AZ" THEN 'https://i.ibb.co/vks3TxQ/download2.png'
+        WHEN ${state} = "GA" THEN 'https://i.ibb.co/rb2WpYG/download3.png'
+        END ;;
+  }
+
   dimension: status {
     type: string
     sql: ${TABLE}.Status ;;
