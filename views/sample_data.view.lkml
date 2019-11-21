@@ -90,7 +90,7 @@ view: sample_data {
     label: "Tweet Sentiment"
     description: "Cos Wave from -1 to 1"
     type: number
-    value_format: "0.00"
+    value_format_name: "decimal_2"
     sql: ${cos} ;;
   }
 
