@@ -90,6 +90,7 @@ view: sample_data {
     label: "Tweet Sentiment"
     description: "Cos Wave from -1 to 1"
     type: number
+    value_format: "0.00"
     sql: ${cos} ;;
   }
 
@@ -118,6 +119,7 @@ view: sample_data {
     label: "Revenue"
     description: "Trending sin wave from 0 to 100k"
     type: number
+    value_format: "0"
     sql: ${funky} ;;
   }
 
