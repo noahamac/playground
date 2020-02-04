@@ -16,3 +16,10 @@ explore: sample_data {
     relationship: one_to_one
   }
 }
+
+explore: route {
+  from: route
+}
+explore: route_blob {
+  from: route_blob
+}
