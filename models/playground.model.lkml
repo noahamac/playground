@@ -23,3 +23,5 @@ explore: route {
 explore: route_blob {
   from: route_blob
 }
+
+explore: earthquake {}
