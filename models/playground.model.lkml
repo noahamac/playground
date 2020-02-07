@@ -25,3 +25,5 @@ explore: route_blob {
 }
 
 explore: earthquake {}
+
+explore: workouts {}

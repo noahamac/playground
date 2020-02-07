@@ -13,3 +13,10 @@ visualization: {
   label: "Kepler GIS"
   dependencies: []
 }
+
+visualization: {
+  id: "react-starter"
+  file: "react_starter.js"
+  label: "React Starter"
+  dependencies: []
+}
