@@ -20,3 +20,10 @@ visualization: {
   label: "React Starter"
   dependencies: []
 }
+
+visualization: {
+  id: "calendarheatmap"
+  file: "calendar_chart.js"
+  label: "CAL HM MF"
+  dependencies: []
+}
