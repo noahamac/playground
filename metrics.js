@@ -54,6 +54,7 @@ const visObject = {
           data: vizOptions.data,
           least_squares: false,
           chart_type: 'point',
+          interpolate: false,
           width: vizOptions.w,
           height: vizOptions.h,
           right: 10,
