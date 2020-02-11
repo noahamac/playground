@@ -18,7 +18,7 @@ visualization: {
   id: "metricsgraphics"
   file: "metrics.js"
   label: "Metrics"
-  dependencies: ["https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.15.6/metricsgraphics.js", "https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"]
+  dependencies: ["https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js", "https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.15.6/metricsgraphics.js"]
 }
 
 visualization: {
