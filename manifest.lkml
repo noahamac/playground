@@ -15,6 +15,13 @@ visualization: {
 }
 
 visualization: {
+  id: "metricsgraphics"
+  file: "metrics.js"
+  label: "Metrics"
+  dependencies: ["https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.15.6/metricsgraphics.min.js", "https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"]
+}
+
+visualization: {
   id: "react-starter"
   file: "react_starter.js"
   label: "React Starter"
