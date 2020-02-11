@@ -19,7 +19,7 @@ const baseOptions = {
 
 const visObject = {
   create: function(element, config){
-    element.innerHTML = `
+    element.innerHTML = `<style>
     .mg-active-datapoint {
     fill: black;
     font-size: 0.9rem;
@@ -562,7 +562,7 @@ tspan.mg-points-mono {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}`
+}</style>`
       this.container = element.appendChild(document.createElement('svg'));
       this.container.className = 'viz';
   },
