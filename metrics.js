@@ -595,8 +595,8 @@ tspan.mg-points-mono {
       };
 
       MG.data_graphic({
-          title: "Simple Line of Best Fit",
-          description: "For any scatterplot, set least_squares to true to add.",
+          title: config.title,
+          description: config.description,
           data: vizOptions.data,
           least_squares: false,
           chart_type: config.chart_type,
