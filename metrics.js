@@ -52,7 +52,7 @@ const visObject = {
           title: "Simple Line of Best Fit",
           description: "For any scatterplot, set least_squares to true to add.",
           data: vizOptions.data,
-          least_squares: true,
+          least_squares: false,
           chart_type: 'point',
           width: vizOptions.w,
           height: vizOptions.h,
