@@ -41,3 +41,10 @@ visualization: {
   label: "CHILIS"
   dependencies: ["https://code.jquery.com/jquery-2.2.4.min.js","https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js","https://d3js.org/d3.v5.min.js"]
 }
+
+visualization: {
+  id: "bugfixmv"
+  file: "grouped_card.js"
+  label: "Multi Value bugfix"
+  dependencies: []
+}
