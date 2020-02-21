@@ -51,7 +51,7 @@ visualization: {
 
 visualization: {
   id: "bugfiefrxmv"
-  file: "gauge_chart.js"
+  file: "gauge.js"
   label: "Gage Chart bugfix"
   dependencies: []
 }
