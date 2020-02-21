@@ -48,3 +48,10 @@ visualization: {
   label: "Multi Value bugfix"
   dependencies: []
 }
+
+visualization: {
+  id: "bugfiefrxmv"
+  file: "gauge_chart.js"
+  label: "Gage Chart bugfix"
+  dependencies: []
+}
