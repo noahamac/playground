@@ -8,6 +8,12 @@ project_name: "playground"
 # }
 
 visualization: {
+  id: "viz-specor"
+  file: "viz-inspector.js"
+  label: "DR VIZ"
+}
+
+visualization: {
   id: "kepler-test"
   file: "kepler.js"
   label: "Kepler GIS"
