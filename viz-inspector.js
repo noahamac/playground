@@ -111,8 +111,7 @@ looker.plugins.visualizations.add({
   updateAsync: function(data, element, config, queryResponse, details, done) {
     this.clearErrors();
     var wrapper = document.querySelector(".viz-inspector");
-    wrapper.empty()
-    var tree = jsonTree.create(data, wrapper);
+    var tree = jsonTree.loadData(data, wrapper);
     done()
   }
 });
