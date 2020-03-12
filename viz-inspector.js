@@ -107,11 +107,11 @@ looker.plugins.visualizations.add({
 </style>`
     var container = element.appendChild(document.createElement("div"));
     container.className = 'viz-inspector'
+    var tree = jsonTree.create({}, container);
   },
   updateAsync: function(data, element, config, queryResponse, details, done) {
     this.clearErrors();
-    var wrapper = document.querySelector(".viz-inspector");
-    var tree = jsonTree.loadData(data, wrapper);
+    tree.loadData(data);
     done()
   }
 });
