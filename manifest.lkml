@@ -11,6 +11,7 @@ visualization: {
   id: "viz-specor"
   file: "viz-inspector.js"
   label: "DR VIZ"
+  dependencies: ["https://cdn.jsdelivr.net/npm/json-tree-viewer@0.0.2/libs/jsonTree/jsonTree.min.js"]
 }
 
 visualization: {
