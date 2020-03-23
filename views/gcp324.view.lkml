@@ -16,9 +16,9 @@ view: gcp324 {
     sql: ${TABLE}.compute ;;
   }
 
-  dimension_group: time {
+  dimension_group: logged_at {
     type: time
-    timeframes: [date, raw]
+    timeframes: [date, raw, time]
     sql: ${TABLE}.time ;;
   }
 
