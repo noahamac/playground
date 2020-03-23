@@ -19,7 +19,7 @@ view: gcp324 {
   dimension_group: logged_at {
     type: time
     timeframes: [date, raw, time]
-    sql: PARSE_TIMESTAMP('%Y-%m-%dT%H:%M:%S', ${TABLE}.time) ;;
+    sql: PARSE_DATETIME('%Y-%m-%dT%H:%M:%S', ${TABLE}.time) ;;
   }
 
   measure: count {
