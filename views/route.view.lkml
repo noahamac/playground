@@ -61,6 +61,12 @@ view: route {
     sql: ${TABLE}.vAccs ;;
   }
 
+  measure: faker {
+    type: sum
+    # order_by_field: name
+    # expression: rand()*row() ;;
+  }
+
   measure: count {
     type: count
     drill_fields: [name]

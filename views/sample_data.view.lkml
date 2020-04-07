@@ -99,6 +99,7 @@ view: sample_data {
     description: "Exponential growth over time from .125 to 100T"
     type: number
     sql: ${exponential} ;;
+    drill_fields: [state, date_date, expon_trend]
   }
 
   measure: line_trend {
