@@ -2,6 +2,7 @@ connection: "datapoint"
 
 # include all the views
 include: "/views/**/*.view"
+include: "/**/*.dashboard"
 
 datagroup: playground_default_datagroup {
   # sql_triggerdwdwd: SELECT MAX(id) FROM etl_log;;
