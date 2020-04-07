@@ -6,7 +6,7 @@
     name: New Tile
     model: system__activity
     explore: history
-    type: groupeddevelop
+    type: viz-multiple_value-marketplace::multiple_value-marketplace
     fields: [history.count, history.dashboard_user, history.explore_user]
     limit: 500
     query_timezone: America/Los_Angeles
@@ -396,7 +396,7 @@
     name: USA
     model: system__activity
     explore: history
-    type: groupeddevelop
+    type: viz-multiple_value-marketplace::multiple_value-marketplace
     fields: [history.database_result_query_count, history.cache_result_query_count,
       history.queries_under_10s, history.query_run_count]
     limit: 500
@@ -472,7 +472,7 @@
     name: LKML
     model: system__activity
     explore: history
-    type: groupeddevelop
+    type: viz-multiple_value-marketplace::multiple_value-marketplace
     fields: [history.database_result_query_count, history.cache_result_query_count,
       history.queries_under_10s, history.query_run_count, history.approximate_usage_in_minutes,
       history.total_runtime]
