@@ -1,5 +1,5 @@
-- dashboard: multival_bugfix
-  title: multival bugfix
+- dashboard: multival_bugfix_lkml
+  title: multival bugfix lookml dash
   layout: newspaper
   elements:
   - title: New Tile (copy)
