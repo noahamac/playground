@@ -7,58 +7,58 @@ project_name: "playground"
 #   project: "name_of_other_project"
 # }
 
-visualization: {
-  id: "viz-specor"
-  file: "viz-inspector.js"
-  label: "DR VIZ"
-  dependencies: ["https://code.jquery.com/jquery-3.4.1.min.js", "https://cdn.jsdelivr.net/npm/json-tree-viewer@0.0.2/libs/jsonTree/jsonTree.min.js"]
-}
+# visualization: {
+#   id: "viz-specor"
+#   file: "viz-inspector.js"
+#   label: "DR VIZ"
+#   dependencies: ["https://code.jquery.com/jquery-3.4.1.min.js", "https://cdn.jsdelivr.net/npm/json-tree-viewer@0.0.2/libs/jsonTree/jsonTree.min.js"]
+# }
 
-visualization: {
-  id: "kepler-test"
-  file: "kepler.js"
-  label: "Kepler GIS"
-  dependencies: []
-}
+# visualization: {
+#   id: "kepler-test"
+#   file: "kepler.js"
+#   label: "Kepler GIS"
+#   dependencies: []
+# }
 
-visualization: {
-  id: "metricsgraphics"
-  file: "metrics.js"
-  label: "Metrics"
-  dependencies: ["https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js", "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.15.6/metricsgraphics.js"]
-}
+# visualization: {
+#   id: "metricsgraphics"
+#   file: "metrics.js"
+#   label: "Metrics"
+#   dependencies: ["https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js", "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.15.6/metricsgraphics.js"]
+# }
 
-visualization: {
-  id: "react-starter"
-  file: "react_starter.js"
-  label: "React Starter"
-  dependencies: []
-}
+# visualization: {
+#   id: "react-starter"
+#   file: "react_starter.js"
+#   label: "React Starter"
+#   dependencies: []
+# }
 
-visualization: {
-  id: "calendarheatmap"
-  file: "calendar_chart.js"
-  label: "CAL HM MF"
-  dependencies: []
-}
+# visualization: {
+#   id: "calendarheatmap"
+#   file: "calendar_chart.js"
+#   label: "CAL HM MF"
+#   dependencies: []
+# }
 
-visualization: {
-  id: "chiligauge2"
-  file: "chili-gauge.js"
-  label: "CHILIS"
-  dependencies: ["https://code.jquery.com/jquery-2.2.4.min.js","https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js","https://d3js.org/d3.v5.min.js"]
-}
+# visualization: {
+#   id: "chiligauge2"
+#   file: "chili-gauge.js"
+#   label: "CHILIS"
+#   dependencies: ["https://code.jquery.com/jquery-2.2.4.min.js","https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js","https://d3js.org/d3.v5.min.js"]
+# }
 
-visualization: {
-  id: "bugfixmv"
-  file: "grouped_card.js"
-  label: "Multi Value bugfix"
-  dependencies: []
-}
+# visualization: {
+#   id: "bugfixmv"
+#   file: "grouped_card.js"
+#   label: "Multi Value bugfix"
+#   dependencies: []
+# }
 
-visualization: {
-  id: "bugfiefrxmv"
-  file: "gauge.js"
-  label: "Gage Chart bugfix"
-  dependencies: []
-}
+# visualization: {
+#   id: "bugfiefrxmv"
+#   file: "gauge.js"
+#   label: "Gage Chart bugfix"
+#   dependencies: []
+# }
