@@ -14,12 +14,12 @@ project_name: "playground"
 #   dependencies: ["https://code.jquery.com/jquery-3.4.1.min.js", "https://cdn.jsdelivr.net/npm/json-tree-viewer@0.0.2/libs/jsonTree/jsonTree.min.js"]
 # }
 
-# visualization: {
-#   id: "kepler-test"
-#   file: "kepler.js"
-#   label: "Kepler GIS"
-#   dependencies: []
-# }
+visualization: {
+  id: "kepler-test"
+  file: "kepler.js"
+  label: "Kepler GIS"
+  dependencies: []
+}
 
 # visualization: {
 #   id: "metricsgraphics"
